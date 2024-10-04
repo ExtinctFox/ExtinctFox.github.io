@@ -12,7 +12,21 @@ header {
     background-color: #333;
     color: white;
     padding: 20px 0;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 50px; /* Adjust this size based on how large you want the logo */
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-text {
+    display: inline-block;
 }
 
 header h1 {
