@@ -18,6 +18,11 @@ social_links:
 markdown: kramdown
 highlighter: rouge
 
+# Favicon
+assets:
+  icons: "/assets/icons"
+
+
 # Navigation (optional)
 nav:
   - name: "Home"
