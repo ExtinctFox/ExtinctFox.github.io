@@ -21,7 +21,7 @@ header {
 
 .logo {
     width: 4px;  /* Adjust the size of the logo */
-    height: auto;
+    height: 4px;
     margin-right: 15px;  /* Space between logo and text */
 }
 
