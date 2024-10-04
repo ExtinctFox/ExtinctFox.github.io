@@ -15,19 +15,25 @@ body {
 
 /* Header styling */
 header {
-    display: flex;                 /* Flexbox layout for side-by-side positioning */
-    align-items: center;           /* Vertically center the logo and text */
-    justify-content: flex-start;   /* Align items to the left */
+    display: flex;                /* Flexbox layout for side-by-side positioning */
+    align-items: center;          /* Vertically center the logo and text */
+    justify-content: flex-start;  /* Align items to the left */
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo styling */
+/* Logo container styling */
 .logo {
-    width: 50px;   /* Control logo size */
-    height: 50px;  /* Make the logo height the same as width for square appearance */
+    width: 50px;  /* Control the container size */
+    height: 50px; /* Set fixed height */
     margin-right: 15px;  /* Space between logo and text */
+}
+
+/* The SVG inside logo */
+.logo svg {
+    width: 100%;   /* Scale SVG to fit the container */
+    height: 100%;  /* Maintain aspect ratio */
 }
 
 /* Header text styling */
