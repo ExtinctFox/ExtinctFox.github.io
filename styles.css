@@ -1,103 +1,42 @@
-/* General Styles */
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
+/* Header styling */
 header {
-    background-color: #333;
-    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
     padding: 20px;
-    display: flex; /* Flexbox to align items */
-    align-items: center; /* Vertically center items */
-    justify-content: flex-start; /* Align everything to the left */
-    max-width: 1200px;
-    margin: 0 auto; /* Center header content on the page */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo styling */
 .logo {
-    width: 4px;  /* Adjust the size of the logo */
-    height: auto;
-    margin-right: 15px;  /* Space between logo and text */
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
 }
 
-.header-text {
-    text-align: left;  /* Ensure text is aligned to the left */
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.8em;  /* Adjust font size */
-}
-
-header p {
-    margin: 5px 0 0;  /* Slight margin to add space between name and subtitle */
-    font-size: 1em;
-    font-weight: 300;
-}
-
-/* Section Styles */
-section {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
+/* Header text styling */
+.header-text h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
     color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 1.8em;
 }
 
-section p, section ul {
-    margin: 0;
-    padding: 0;
-}
-
-section ul {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-section ul li {
-    margin-bottom: 10px;
-}
-
-/* Contact Section */
-#contact a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-    header h1 {
-        font-size: 1.5em; /* Reduce font size on small screens */
-    }
-    header p {
-        font-size: 0.9em; /* Adjust for mobile */
-    }
-    section {
-        padding: 15px;
-    }
-    section h2 {
-        font-size: 1.5em;
-    }
+.header-text p {
+    font-size: 1.2em;
+    color: #666;
 }
