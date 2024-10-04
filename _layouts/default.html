@@ -1,1 +1,30 @@
-<link rel="icon" href="{{ site.assets.icons }}/favicon.svg" type="image/svg+xml">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ site.assets.icons }}/favicon.svg" type="image/svg+xml">
+
+    <!-- Include any custom stylesheets here -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <!-- Add navigation links here -->
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+  </body>
+</html>
