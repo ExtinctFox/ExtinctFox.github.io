@@ -12,18 +12,17 @@ header {
     background-color: #333;
     color: white;
     padding: 20px;
-    display: flex;
-    align-items: center;  /* Vertically center items */
+    display: flex; /* Flexbox to align items */
+    align-items: center; /* Vertically center items */
     justify-content: flex-start; /* Align everything to the left */
     max-width: 1200px;
     margin: 0 auto; /* Center header content on the page */
 }
 
 .logo {
-    width: 40px;  /* Desired width */
+    width: 40px;  /* Adjust the size of the logo */
     height: auto;
-    margin-right: 15px;
-    transform: scale(0.5); /* Scale down the SVG */
+    margin-right: 15px;  /* Space between logo and text */
 }
 
 .header-text {
