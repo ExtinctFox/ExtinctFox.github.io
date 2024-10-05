@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url(assets/devkon_logo.svg);
+    background-color: rgb(39, 39, 39);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +24,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 110vh;
-    background: rgb(39, 39, 39);
 }
 
 .nav {
@@ -39,11 +38,14 @@ body {
     z-index: 100;
 }
 
-.nav-logo p {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-}
+.nav-logo {
+    background-image: url("/assets/devkon_logo.svg");
+    background-size: contain; /* ensures the image scales properly */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px; /* adjust the width to match your logo size */
+    height: auto; /* adjust the height to match your logo size */
+  }
 
 .nav-menu ul {
     display: flex;
@@ -76,4 +78,7 @@ body {
     transition: .3s ease;
 }
 
+.nav-menu-btn {
+    color: white;
+}
 
