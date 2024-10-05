@@ -1,8 +1,31 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .st0 { fill-rule:evenodd; clip-rule:evenodd; fill:#D02C3B; }
-  </style>
-  <g transform="matrix(1.3481,-0.7783,0.7783,1.3481,-1315.5965,407.04)">
-    <path class="st0" d="M 960.6,356.4 829.2,546.9 h -98.4 l 132,-190.3 z m 177.1,0 -265.1,381.4 h -97 l 264,-381.3 z m -53,189.1 h 99 l -133.9,192.3 h -98.1 z" />
-  </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 800 800"
+   xml:space="preserve"
+   width="800"
+   height="800"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs27" />
+<style
+   type="text/css"
+   id="style18">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#D02C3B;}
+</style>
+<g
+   id="g22"
+   transform="matrix(1.3481048,-0.77832871,0.77832871,1.3481048,-1315.5965,407.04002)"
+   style="fill:#f4f4f4;fill-opacity:0.956863">
+	<path
+   id="path4789"
+   style="fill:#f4f4f4;fill-opacity:0.956863"
+   class="st0"
+   d="M 960.6,356.4 829.2,546.9 h -98.4 l 132,-190.3 z m 177.1,0 -265.1,381.4 h -97 l 264,-381.3 z m -53,189.1 h 99 l -133.9,192.3 h -98.1 z" />
+</g>
 </svg>
