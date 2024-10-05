@@ -39,7 +39,7 @@ body {
 }
 
 .nav-logo {
-    background-image: url("/assets/devkon_logo.svg");
+    background-image: url("../assets/devkon_logo.svg");
     background-size: contain; /* ensures the image scales properly */
     background-repeat: no-repeat;
     background-position: center;
